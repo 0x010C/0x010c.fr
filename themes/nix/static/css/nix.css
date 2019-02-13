@@ -23,6 +23,10 @@ img {
 	color: #00ff00;
 }
 
+.green {
+	color: #00c42c;
+}
+
 .font-header {
 	font-family: 'Inconsolata', monospace;
 }
@@ -45,7 +49,6 @@ h1,h2,h3,h4,h5,h6 {
 
 #user-name {
 	font-size: 5em;
-	text-transform: uppercase;
 }
 
 .user-description {
@@ -63,9 +66,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .user-picture {
-	border-style: solid;
-	border-width: 5px;
-	border-color: #292929;
 	margin-top: 20px;
 }
 
