@@ -1,0 +1,67 @@
+baseURL = "https://0x010c.fr/"
+languageCode = "fr-fr"
+title = "0x010C - The blog of a French kiwi"
+theme = "nix"
+
+[params]
+  Name = "0x010C"
+  HeaderUsername = "0x010C"
+  HeaderHostname = "kiwi"
+  About = "I'm a French photographer, IT engineer, kayaker and long-term traveler, currently living in New Zealand. <br>Wikimedian volunteer since 2014 and sysop on the French Wikipedia since 2015, I'm working on many techhnical stuffs there.<br>I become in 2018 the architect and main developper of <a href=\"https://lingualibre.fr\">Lingua Libre</a>, a library of free audio records in thousands of languages that everyone can complete.<br><center><a href=\"https://pics.0x010c.fr\">My photo blog</a> &nbsp;-&nbsp; <a href=\"#\">My CV</a></center>"
+  ProfilePicture = "warning-kiwi.png"
+  #GnuPGFingerprint = "your_gpg_fingerprint"
+  GithubID = "0x010C"
+  TwitterID = "0x010C"
+  InstagramID = "antoine.lamielle"
+  Wikipedia = "User:0x010C"
+  Email = "0x010c@0x010c.fr"
+
+[menu]
+  [[menu.header]]
+    identifier = "pics"
+    name = "pics"
+    weight = -1
+    url = "https://pics.0x010c.fr"
+  [[menu.header]]
+    identifier = "tools"
+    name = "tools"
+    weight = 1
+    url = "https://tools.0x010c.fr"
+  [[menu.header]]
+    parent = "tools"
+    name = "hash"
+    url = "https://hash.0x010c.fr"
+  [[menu.header]]
+    parent = "tools"
+    name = "IP"
+    url = "https://ip.0x010c.fr"
+  [[menu.header]]
+    parent = "tools"
+    name = "whois"
+    url = "https://whois.0x010c.fr"
+  [[menu.header]]
+    parent = "tools"
+    name = "paste"
+    url = "https://paste.0x010c.fr"
+  [[menu.header]]
+    parent = "tools"
+    name = "shorten"
+    url = "https://shorten.0x010c.fr"
+#  [[menu.header]]
+#    identifier = "post"
+#    name = "posts"
+#    weight = 2
+#    url = "/post"
+#  [[menu.header]]
+#    parent = "post"
+#    name = "All Posts"
+#    url = "/post"
+#  [[menu.header]]
+#    parent = "post"
+#    name = "categories"
+#    url = "/categories"
+#  [[menu.header]]
+#    parent = "post"
+#    name = "tags"
+#    url = "/tags"
+
